@@ -1,0 +1,6 @@
+Receive task called
+Send task called
+Successfully sent 11 bytes to the server.
+Client connected successfully!
+Received 11 bytes: Task 1 data
+Received task data: Task 1 data

@@ -1,0 +1,10 @@
+^C:\USERS\DASRI\DESKTOP\DISTRIBUTEDTASKSCHEDULER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dasri/Desktop/DistributedTaskScheduler -BC:/Users/dasri/Desktop/DistributedTaskScheduler/build --check-stamp-file C:/Users/dasri/Desktop/DistributedTaskScheduler/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

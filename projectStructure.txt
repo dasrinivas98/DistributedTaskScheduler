@@ -1,0 +1,17 @@
+DistributedTaskScheduler/
+├── CMakeLists.txt
+├── include/
+│   ├── Task.h
+│   ├── Worker.h
+│   ├── Scheduler.h
+│   ├── NetworkUtils.h
+├── src/
+│   ├── main.cpp
+│   ├── Task.cpp
+│   ├── Worker.cpp
+│   ├── Scheduler.cpp
+│   ├── NetworkUtils.cpp
+└── tests/
+    ├── TestTask.cpp
+    ├── TestWorker.cpp
+    └── TestScheduler.cpp
