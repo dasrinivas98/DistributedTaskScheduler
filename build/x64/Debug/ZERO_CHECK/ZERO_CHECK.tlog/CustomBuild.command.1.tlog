@@ -1,0 +1,10 @@
+^C:\USERS\DASRI\DESKTOP\DISTRIBUTEDTASKSCHEDULER\BUILD\CMAKEFILES\3C04A1011C3FF6F83C4A6497119B9F39\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dasri/Desktop/DistributedTaskScheduler -BC:/Users/dasri/Desktop/DistributedTaskScheduler/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dasri/Desktop/DistributedTaskScheduler/build/DistributedTaskScheduler.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
